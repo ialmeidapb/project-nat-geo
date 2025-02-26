@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "icon": "Asset_1",
+      "words": ["TV", "525 M", "Households in 172 countries"]
+    },
+    {
+      "icon": "Asset_2",
+      "words": ["Social", "807 M", "Followers"]
+    },
+    {
+      "icon": "Asset_3",
+      "words": ["Digital", "41 M", "Monthly reach"]
+    },
+    {
+      "icon": "Asset_4",
+      "words": ["print", "39 M", "Readers"]
+    }
+	],
+	"social": [
+			{
+				"icon": "facebook.png",
+				"words": ["275 M+", "global fans"],
+				"url":"https://www.facebook.com/natgeo"
+			},
+			{
+				"icon": "instagram.png",
+				"words": ["398 M+", "Followers"],
+				"url":"https://www.instagram.com/natgeo/"
+			},
+			{
+				"icon": "twitter.png",
+				"words": ["54 M+", "Followers"],
+				"url":"https://x.com/natgeo/"
+			},
+			{
+				"icon": "linkedin.png",
+				"words": ["3 M +", "Followers"],
+				"url":"https://www.linkedin.com/company/national-geographic"
+			},
+			{
+				"icon": "tiktok.png",
+				"words": ["12 M+", "Followers"],
+				"url":"https://www.tiktok.com/@natgeo?lang=en"
+			}
+		]
+	
+	
+}

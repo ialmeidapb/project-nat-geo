@@ -1,0 +1,52 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "category": "Travel",
+      "brand": "Canada",
+      "image": "card1",
+      "summary": "Destination Canada invited National Geographic to explore what “openness” really means...",
+      "link": "/story/1"
+    },
+    {
+      "id": 2,
+      "category": "Consumer",
+      "brand": "Finish",
+      "image": "card2",
+      "summary": "From manatees in Florida, to the Thames in London, to the drought stricken Karoo in South Africa, Finish and National Geo ...",
+      "link": "/story/1"
+    },
+    {
+      "id": 3,
+      "category": "Luxury",
+      "brand": "Prada",
+      "image": "card3",
+      "summary": "In this three-part video series, together we explore the power of education and indigenous knowledge in creating inspiring solutions ...",
+      "link": "/story/1"
+    },
+    {
+      "id": 4,
+      "category": "Business",
+      "brand": "Capgemini",
+      "image": "card4",
+      "summary": "Our fast moving–and highly stressed–planet cannot wait for innovative solutions to our problems tomorrow, or next year.",
+      "link": "/story/1"
+    },
+    {
+      "id": 5,
+      "category": "Technology",
+      "brand": "Oppo",
+      "image": "card5",
+      "summary": "Content from OPPO and National Geographic created to drive awareness of OPPO’s new Find X3 Pro phone, highlighting its unique ...",
+      "link": "/story/1"
+    },
+    {
+      "id": 6,
+      "category": "Automotive",
+      "brand": "Bentley",
+      "image": "card6",
+      "summary": "Powered by Bentley vehicles, insight and expertise, National Geographic shines a spotlight on Bentley’s Extraordinary Journeys program ...",
+      "link": "/story/1"
+    }
+  ]
+}

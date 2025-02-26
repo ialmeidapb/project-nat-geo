@@ -1,0 +1,424 @@
+@font-face {
+  font-family: GeoBold;
+  src: url(./assets/fonts/GeographWeb-Bold.woff);
+}
+
+@font-face {
+  font-family: GeoRegular;
+  src: url(./assets/fonts/GeographWeb-Regular.woff);
+}
+
+@font-face {
+  font-family: GeoMedium;
+  src: url(./assets/fonts/GeographWeb-Medium.woff);
+}
+
+.geo-title {
+  font-family: GeoBold;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: white;
+  opacity: 1;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.geo-title .second-line {
+  display: block;
+}
+
+.geo-text {
+  font-family: GeoRegular;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section .video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .geo-title {
+    font-size: 1.8rem;
+  }
+  .geo-title .second-line {
+    display: inline;
+  }
+  .geo-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+  }
+}
+
+.categories-menu {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.categories-menu {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  font-family: GeoRegular;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.category-item:hover {
+  color: #cccccc;
+}
+
+.category-item.selected {
+  border-bottom: 3px solid #ffcc00;
+  color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+  .categories-menu {
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+
+  .category-item {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .categories-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .category-item {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+}
+
+.stories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.story-card h4 {
+  font-family: GeoBold;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.story-card p {
+  font-family: GeoRegular;
+  color: #cccccc;
+  font-size: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col-md-4 {
+  flex: 1 1 30%;
+}
+
+
+.story-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.story-card a:focus, 
+.story-card a:hover, 
+.story-card a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stories-section h4{
+  font-family: GeoMedium;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: black;
+  margin: 20px 0 10px 0;
+}
+
+.stories-section h5{
+  font-family: GeoMedium;
+  font-size: 12px;
+  color: #707070;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.stories-section .story-card {
+  margin-bottom: 20px;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.stories-section .story-image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.summary-text {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+  background-color: #1a1a1a;
+  padding: 10px;
+  font-size: 1rem;
+  display: none;
+  transition: opacity 0.3s ease;
+  font-family: GeoRegular;
+  color:rgba(255, 255, 255, 0.6)
+}
+
+.story-card:hover .summary-text {
+  display: block;
+}
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  height: auto;
+  background-color: #1a1a1a;
+}
+
+.footer-title {
+  font-family: Geobold;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 0px;
+  font-size: 40px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.container-footer {
+  padding-top: 50px;
+}
+
+.footer-icons {
+  height: 100px;
+}
+
+.word-1 {
+  font-family: GeoMedium;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.word-2 {
+  font-family: GeoBold;
+  color: #ffcc00;
+  font-size: 34px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.word-3 {
+  font-family: GeoMedium;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  max-width: 190px;
+}
+
+.first-section {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.footer-icons-custom {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.word-custom {
+  font-family: GeoMedium;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.word-custom:nth-child(1) {
+  font-family: GeoBold;
+  color: #ffcc00;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.container-custom {
+  padding: 70px 20px 20px 20px;
+}
+
+
+.row-cols-2 .col-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-cols-md-4 .col-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.separate-bar {
+  display: block;
+  margin: 70px auto;
+  color: #ffcc00;
+  font-weight: 900;
+  height: 5px;
+  line-height: 0;
+  width: 10%;
+  text-align: center;
+  border-bottom: 5px solid #ffcc00;
+}
+
+.separate-bar-img {
+  display: block;
+  margin: 48px 0;
+  color: #ffcc00;
+  font-weight: 900;
+  height: 5px;
+  line-height: 0;
+  width: 10%;
+  text-align: left;
+  border-bottom: 5px solid #ffcc00;
+}
+
+.hero-section-travel {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section-travel .video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-section-travel .overlay-travel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.geo-title-travel {
+  font-family: GeoBold;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: white;
+  opacity: 1;
+  max-width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+.geo-title-travel:hover {
+  color: #cccccc !important;
+}
+
+.geo-text-travel {
+  font-family: GeoRegular;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
