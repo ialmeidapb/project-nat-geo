@@ -5,11 +5,12 @@ import img1 from '../assets/imgs/image.jpg';
 import video1 from '../assets/imgs/video1.mp4';
 import Footer from './Footer';
 import homeData from '../data/home.json'
+import LightFooter from './LightFooter';
+
 
 const Home = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  // Cards Menu
   const filteredStories = selectedCategory === 'All'
     ? homeData.stories
     : homeData.stories.filter(story => story.category === selectedCategory);
@@ -43,7 +44,7 @@ const Home = () => {
 
       <section className="stories-section py-5">
       <Container>
-        {/* Menu de Categorias */}
+       
         <div className="categories-menu">
           {categories.map((category) => (
             <span
@@ -56,7 +57,7 @@ const Home = () => {
           ))}
         </div>
 
-        {/* Lista de Histórias Filtradas - Exibindo todos os cards de uma vez */}
+       
         <Row className="justify-content-center">
           {filteredStories.map((story, index) => (
             <Col key={index} md={4} className="story-card">
@@ -90,6 +91,7 @@ const Home = () => {
     </header>
   </a>
       <Footer />
+      <LightFooter />
     </div>
   );
 }

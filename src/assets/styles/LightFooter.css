@@ -1,0 +1,72 @@
+@font-face {
+  font-family: GeoBold;
+  src: url(../fonts/GeographWeb-Bold.woff);
+}
+
+@font-face {
+  font-family: GeoRegular;
+  src: url(../fonts/GeographWeb-Regular.woff);
+}
+
+@font-face {
+  font-family: GeoMedium;
+  src: url(../fonts/GeographWeb-Medium.woff);
+}
+
+.light-footer {
+  background-color: #000000;
+}
+.nat-geo {
+	color:#ffcc00 !important;
+	font-size: 17px !important;
+}
+.light-footer h5{
+	font-family: GeoBold;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+	line-height: 1.5;
+	margin: 0 0 17px;
+	padding: 0px;
+	max-width: none;
+}
+
+.light-footer a {
+  color: white;
+	text-decoration: none;
+	font-family: GeoMedium;
+	font-size: 13px;
+	letter-spacing: 3px;
+	line-height: 1.5;
+	margin: 0 0 17px;
+	padding: 0px;
+	max-width: none;
+}
+
+.light-footer a:hover {
+  color: gray;
+}
+
+.light-footer a:focus, .light-footer a:active {
+  color: white;
+  outline: none;
+}
+
+.light-footer h5 {
+  font-weight: bold;
+}
+
+.light-footer .social-icons a {
+  color: white;
+  margin-right: 16px;
+}
+
+.light-footer .social-icons a:hover {
+  color: gray;
+}
+
+.light-footer p {
+  font-size: 14px;
+  color: white;
+}

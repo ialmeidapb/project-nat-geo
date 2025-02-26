@@ -5,48 +5,54 @@
       "category": "Travel",
       "brand": "Canada",
       "image": "card1",
-      "summary": "Destination Canada invited National Geographic to explore what “openness” really means...",
-      "link": "/story/1"
+      "fullStory": "With so much to discover, we sent three celebrated and uniquely individual National Geographic photographers on assignment to capture images of the places, people and moments that touched them when visiting Canada at three very different times of year. Their only brief was to “Capture the Open spirit of Canada through a collection of incredible images”. Dividing the year up into three key seasons - Season of Bounty, Season of Twilight and Season of Wonder - and allocating a different National Geographic photographer to each, they were able to immerse themselves in everything Canada’s openness has to offer.",
+      "summary": "Destination Canada invited National Geographic to explore what “openness” really means. Through beautiful photography, meaningful narratives ...",
+      "link": "/detail/1"
     },
     {
       "id": 2,
       "category": "Consumer",
       "brand": "Finish",
       "image": "card2",
-      "summary": "From manatees in Florida, to the Thames in London, to the drought stricken Karoo in South Africa, Finish and National Geo ...",
-      "link": "/story/1"
+      "summary":"From manatees in Florida, to the Thames in London, to the drought stricken Karoo in South Africa, Finish and National Geo ...",
+      "fullStory": "National Geographic CreativeWorks created an immersive storytelling campaign that dramatizes the worth of water. As part of this journey we traveled to South Africa, London and the US to document an intimate and urgent story of the value of water to people and ecosystems and those involved with securing the future of this precious resource. The result: an amazing body of work including a 10 minutes content piece for YouTube, shorter bespoke edits for each of these three local stories created for social media amplification. All of these pieces of content were amplified through our digital and social platforms with the aim of sharing these local stories on a global scale to not only help raise awareness of this major issue but to inspire and engage consumers to want to do more.",
+      "link": "/detail/2"
     },
     {
       "id": 3,
       "category": "Luxury",
       "brand": "Prada",
       "image": "card3",
+      "fullStory": "In 2019, Prada and @NationalGeographic CreativeWorks launched our *What We Carry* campaign by announcing the Re-Nylon Project: Prada's initiative using recycled plastics from around the world to reimagine their most iconic products. Today, all nylon within Prada’s production is made this way, and we are continuing our collaboration with the unveiling of the *What We Carry Forward* campaign. In this three-part video series, together we explore the power of education and indigenous knowledge in creating inspiring solutions that can help mitigate coral reef loss, invasive species, and glacier recession.",
       "summary": "In this three-part video series, together we explore the power of education and indigenous knowledge in creating inspiring solutions ...",
-      "link": "/story/1"
+      "link": "/detail/3"
     },
     {
       "id": 4,
       "category": "Business",
       "brand": "Capgemini",
       "image": "card4",
-      "summary": "Our fast moving–and highly stressed–planet cannot wait for innovative solutions to our problems tomorrow, or next year.",
-      "link": "/story/1"
+      "fullStory": "We have worked closely with Capgemini to produce three fascinating articles covering topics relevant to the brand’s Innovation campaign. “The Future of Conservation” explores how technology is being used to support wildlife conservation – work that has never been more crucial. We cover how technology is helping to save life on earth through innovative technologies – from camera traps to drones; audio detection of logging to AI-driven conservation of at-risk environments in Nevada’s Mojave Desert. “The Future of Improving Lives” explores how technology is being used to meet real world challenges and improve lives by ensuring that more people have access to fundamental human rights such as food security, employment, financial services, education and more. The compelling underlying idea is that these need an innovative approach now – and technology is a crucial innovator for making lives better. “The Future of Energy” explores how as we look to reduce our reliance on fossil fuels, technology is supporting the shift to more renewable, cleaner energy sources. We explore the pros and cons of wind power, hydropower, and the intriguing potential of nuclear fusion. It is here we discover Capgemini’s work with ITER to design, test and build the world’s largest machine of its kind – the tokamak.",
+      "summary": "Our fast moving–and highly stressed–planet cannot wait for innovative solutions to our problems tomorrow, or next year ...",
+      "link": "/detail/4"
     },
     {
       "id": 5,
       "category": "Technology",
       "brand": "Oppo",
       "image": "card5",
+      "fullStory": "National Geographic and OPPO explored the otherworldly colors of Mars on Earth through the help of National Geographic Photographer, Keith Ladzinski. He traveled through the Mojave Desert in search of the colors and vistas reminiscent of the Red Planet. What made this campaign unique is that every asset for the campaign, including our hero video, was shot on the OPPO Find X3 Pro. Keith’s amazing results were shared on a dedicated hub on nationalgraphic.com and a double page spread in National geographic magazine.",
       "summary": "Content from OPPO and National Geographic created to drive awareness of OPPO’s new Find X3 Pro phone, highlighting its unique ...",
-      "link": "/story/1"
+      "link": "/detail/5"
     },
     {
       "id": 6,
       "category": "Automotive",
       "brand": "Bentley",
       "image": "card6",
+      "fullStory": "Bentley’s prestige and quality credentials as a maker of luxury cars is undisputed. In recent times, they’ve ventured beyond the automotive industry, looking for innovative ways to widen their appeal and cement the brand in the luxury travel space.  With the latest Extraordinary Journeys program exploring the UK, Scandinavia and New Mexico through carefully curated and exclusive itineraries, Bentley sought to connect with a new audience who shares their passion for discovery.",
       "summary": "Powered by Bentley vehicles, insight and expertise, National Geographic shines a spotlight on Bentley’s Extraordinary Journeys program ...",
-      "link": "/story/1"
+      "link": "/detail/6"
     }
   ]
 }
