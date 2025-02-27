@@ -52,8 +52,8 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
+<div id='cards-section' className='cards-section-style'></div>
       <Container>
-       
         <div className="categories-menu">
           {categories.map((category) => (
             <span

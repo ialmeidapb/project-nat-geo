@@ -480,11 +480,19 @@ footer {
   font-size: 18px;
   color: #1a1a1a;
   text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .return-home:hover {
   color: grey;
   border-bottom: 2px solid #ffcc00;
+}
+
+.cards-section-style{
+  height: 50px;
 }
 
 .card-detail-page {
@@ -543,6 +551,9 @@ footer {
     font-size: 16px;
     top: 10px;
     left: 10px;
+  }
+  .cards-section-style{
+    height: 0;
   }
 }
 
