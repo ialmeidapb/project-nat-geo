@@ -29,7 +29,7 @@ const Footer = () => {
     </div>
 
     <div className="container-custom">
-      <div className="row row-cols-2 row-cols-md-4 justify-content-evenly">
+      <div className="row row-cols-2 row-cols-md-4 justify-content-evenly ten-gap">
         {data.social.map((item, index) => (
           <div key={index} className="col-custom text-center mb-4">
             <div className="d-flex flex-column flex-md-row align-items-center justify-content-center">

@@ -53,6 +53,32 @@
       "fullStory": "Bentley’s prestige and quality credentials as a maker of luxury cars is undisputed. In recent times, they’ve ventured beyond the automotive industry, looking for innovative ways to widen their appeal and cement the brand in the luxury travel space.  With the latest Extraordinary Journeys program exploring the UK, Scandinavia and New Mexico through carefully curated and exclusive itineraries, Bentley sought to connect with a new audience who shares their passion for discovery.",
       "summary": "Powered by Bentley vehicles, insight and expertise, National Geographic shines a spotlight on Bentley’s Extraordinary Journeys program ...",
       "link": "/detail/6"
+    },{
+      "id": 7,
+      "category": "Travel",
+      "brand": "Abu Dhabi",
+      "image": "card7",
+      "fullStory": "Consumer research identified growth opportunities for consideration, intent, and conversion when marketing Abu Dhabi to potential visitors. It further indicated that there were multiple core markets, each with its own interest-driven audience subsets and different barriers to travel. National Geographic, a global media partner could efficiently target audiences at scale with market-relevant, funnel-targeted content based on their interests to showcase Abu Dhabi’s unique history, culture, and attractions.",
+      "summary": "See More. Live More. Love More. Using mixed media to drive audience consideration ...",
+      "link": "/detail/7"
+    },
+    {
+      "id": 8,
+      "category": "Luxury",
+      "brand": "De Beers",
+      "image": "card8",
+      "fullStory": "Under the mantel of ‘Okavango Eternal’, the strategic partnership between De Beers & National Geographic continues to address one of the most critical conservation challenges in Africa: the Okavango Delta. In this latest chapter of the partnership, ‘Visiting the Delta’ National Geographic aims to raise awareness of the wonder and importance of the Okavango Delta, and to build excitement amongst global audiences around the prospect of visiting it for themselves.",
+      "summary": "Through Okavango Eternal, work is underway to help protect the source waters of this one-of-a-kind region, and support tourism that benefits local communities ...",
+      "link": "/detail/8"
+    },
+    {
+      "id": 9,
+      "category": "Automotive",
+      "brand": "Porsche",
+      "image": "card9",
+      "fullStory": "For the launch of the new Macan, Porsche were looking for a partner to tell stories through video content that attracts thrill-seeking 35-45 year-olds. The theme of the campaign is centered on ‘Dare Forward Moments’ experienced on a road trip through Germany. Key EMEA markets included DE, IT, ES, RU and CH, with the campaign running from October to December 2021. For Porsche, it was important to both drive brand awareness through the campaign and engagement with the video assets which also feature across Porsche’s own media in key markets, as well as in their track day-like ‘experience centers’.",
+      "summary": "Centered on a road trip in the Porsche Macan, National Geographic Adventure Photographer Ulla Lohmann reflected on the daring moments experienced when we push our limits ...",
+      "link": "/detail/9"
     }
   ]
 }

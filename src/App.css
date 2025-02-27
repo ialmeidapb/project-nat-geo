@@ -37,6 +37,31 @@
   letter-spacing: 0.063rem;
   margin-top: 0;
   margin-bottom: 20px;
+  color: black;
+}
+.geo-title-our-work {
+  font-family: GeoBold;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: black;
+  opacity: 1;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.geo-title-our-work .second-line {
+  display: block;
+}
+
+.geo-text-our-work {
+  font-family: GeoRegular;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .hero-section {
@@ -161,6 +186,12 @@
   gap: 30px;
 }
 
+.nogap{
+  gap:0 !important;
+}
+.ten-gap{
+  gap:10px !important;
+}
 .col-md-4 {
   flex: 1 1 30%;
 }
@@ -169,6 +200,7 @@
 .story-card a {
   text-decoration: none;
   color: inherit;
+  
 }
 
 .story-card a:focus, 
@@ -196,9 +228,10 @@
 
 .stories-section .story-card {
   margin-bottom: 20px;
-  height: 50vh;
+  height: 100%;
   position: relative;
   overflow: hidden;
+  
 }
 
 .stories-section .story-image {
@@ -210,18 +243,17 @@
 
 .summary-text {
   position: absolute;
-  top: 50%;
-  left: 20px;
+  top: 50%;  
+  left: 20px;  
   right: 20px;
-  transform: translateY(-50%);
+  transform: translateY(-50%);  
   color: white;
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0.7); 
   padding: 10px;
   font-size: 1rem;
   display: none;
   transition: opacity 0.3s ease;
   font-family: GeoRegular;
-  color:rgba(255, 255, 255, 0.6)
 }
 
 .story-card:hover .summary-text {
@@ -435,20 +467,6 @@ footer {
 }
 
 /* CardDetail */
-.return-home {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-family: 'GeoRegular', sans-serif;
-  font-size: 18px;
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-.return-home:hover {
-  color: grey;
-  border-bottom: 2px solid #ffcc00;
-}
 
 .card-detail-page {
   min-height: 100vh;
@@ -520,5 +538,65 @@ footer {
     font-size: 0.9rem;
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu {
+  background: rgba(0, 0, 0, 0.9);
+  list-style-type: none; 
+  text-align: center;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+  gap:30px;
+}
+
+.navbar-item {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #b0b0b0;
+  cursor: pointer;
+  padding: 0 20px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+.navbar-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-family: GeoBold;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-block;
+}
+
+.navbar-item:hover {
+  color: white;
+}
+
+.navbar-item.selected {
+  color: white;
+  border-bottom: 3px solid #ffcc00;
+}
+
+@media (max-width: 768px) {
+  .navbar,
+  .navbar-menu {
+    display: none !important; 
   }
 }

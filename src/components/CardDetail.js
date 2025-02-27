@@ -11,7 +11,6 @@ const CardDetail = () => {
   return (
     <div className="card-detail-page">
       <div className="content-container">
-        <a href="/" className="return-home">&lt; Home</a>
         {story ? (
           <>
             <h2>{story.brand}</h2>

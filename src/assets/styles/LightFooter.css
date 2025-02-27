@@ -18,13 +18,13 @@
 }
 .nat-geo {
 	color:#ffcc00 !important;
-	font-size: 17px !important;
+	font-size: 18px !important;
 }
 .light-footer h5{
 	font-family: GeoBold;
 	color: white;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 17px;
 	letter-spacing: 3px;
 	line-height: 1.5;
 	margin: 0 0 17px;
@@ -35,8 +35,8 @@
 .light-footer a {
   color: white;
 	text-decoration: none;
-	font-family: GeoMedium;
-	font-size: 13px;
+	font-family: GeoRegular;
+	font-size: 16px;
 	letter-spacing: 3px;
 	line-height: 1.5;
 	margin: 0 0 17px;

@@ -43,6 +43,15 @@ const Home = () => {
       </header>
 
       <section className="stories-section py-5">
+        <Container>            
+            <Row className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+              <Col md={8} className="text-center">
+              <h1 className="display-4 geo-title-our-work">OUR WORK</h1>
+              <span className='separate-bar'></span>
+                <p className="lead geo-text-our-work">Every premium National Geographic Brand Story is bespoke, built from the ground up by our National Geographic CreativeWorks studio-utilizing world-class video, photography and information to tell our clients' culturally-relevant stories.</p>
+              </Col>
+            </Row>
+          </Container>
       <Container>
        
         <div className="categories-menu">
@@ -58,7 +67,7 @@ const Home = () => {
         </div>
 
        
-        <Row className="justify-content-center">
+        <Row className="justify-content-center nogap">
           {filteredStories.map((story, index) => (
             <Col key={index} md={4} className="story-card">
               <Link to={story.link}>
@@ -74,7 +83,7 @@ const Home = () => {
     </section>
 
 
-
+<section className="stories-section pt-5">
 <a href="https://www.nationalgeographic.com/travel" target="_blank" rel="noopener noreferrer">
     <header className="hero-section-travel" style={{ backgroundImage: `url(${img1})`, backgroundSize: 'cover' }}>
       <div className="overlay-travel">
@@ -90,6 +99,7 @@ const Home = () => {
       </div>
     </header>
   </a>
+  </section>
       <Footer />
       <LightFooter />
     </div>
