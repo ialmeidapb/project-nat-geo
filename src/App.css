@@ -187,7 +187,7 @@
 }
 
 .nogap{
-  gap:0 !important;
+  gap:50px !important;
 }
 @media (max-width: 768px) {
   .nogap{
