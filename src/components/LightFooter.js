@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import logoIcon from '../assets/imgs/logoNatgeo.png'
 import '../assets/styles/LightFooter.css';
 
 const LightFooter = () => {
@@ -9,7 +10,8 @@ const LightFooter = () => {
       <Container>
         <Row>
           <Col md={3}>
-            <h5 className="nat-geo">National Geographic</h5>
+            {/* <h5 className="nat-geo">National Geographic</h5> */}
+            <img src={logoIcon} alt='logo' className='nat-geo'/>
           </Col>
           <Col md={3}>
             <h5>OUR SITES</h5>

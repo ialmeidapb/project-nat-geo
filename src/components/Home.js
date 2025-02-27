@@ -44,7 +44,7 @@ const Home = () => {
 
       <section className="stories-section py-5">
         <Container>            
-            <Row className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+            <Row className="d-flex justify-content-center align-items-center" style={{ minHeight: '60vh' }}>
               <Col md={8} className="text-center">
               <h1 className="display-4 geo-title-our-work">OUR WORK</h1>
               <span className='separate-bar'></span>
