@@ -189,6 +189,11 @@
 .nogap{
   gap:0 !important;
 }
+@media (max-width: 768px) {
+  .nogap{
+    gap:30px !important;
+  }
+}
 .ten-gap{
   gap:10px !important;
 }
@@ -467,6 +472,20 @@ footer {
 }
 
 /* CardDetail */
+.return-home {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  font-family: 'GeoRegular', sans-serif;
+  font-size: 18px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.return-home:hover {
+  color: grey;
+  border-bottom: 2px solid #ffcc00;
+}
 
 .card-detail-page {
   min-height: 100vh;

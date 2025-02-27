@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data/home.json';
 import LightFooter from './LightFooter';
@@ -8,9 +8,14 @@ const CardDetail = () => {
   const storyId = parseInt(id);
   const story = data.stories.find(story => story.id === storyId);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="card-detail-page">
       <div className="content-container">
+        <a href="/" className="return-home">&lt; Home</a>
         {story ? (
           <>
             <h2>{story.brand}</h2>
